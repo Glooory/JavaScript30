@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --base-color: #ffc600;
+    --spacing: 10px;
+    --blur: 1px;
+    --radius: 0%;
+}
+
+body {
+    background: #193549;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 100;
+    font-family: 'helvetica neue', sans-serif;
+}
+
+body>h2 {
+    padding: 40px 0 20px 0;
+}
+
+.controls {
+    margin-bottom: 50px;
+}
+
+input {
+    width: 100px;
+}
+
+img {
+    padding: var(--spacing);
+    background: var(--base-color);
+    filter: blur(var(--blur));
+    border-radius: var(--radius);
+}
+
+.hl {
+    color: var(--base-color);
+}
